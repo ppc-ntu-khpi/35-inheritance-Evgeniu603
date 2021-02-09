@@ -1,15 +1,18 @@
 package test;
 
-import domain.Cat;
+import domain.Dog;
 
+/**
+ *
+ * @author ДОМ
+ */
 public class TestAnimal {
 
     public static void main(String[] args) {
-        Cat cat = new Cat("Thomas");
-        System.out.println(cat);
-        cat.hunt();
-        cat.eat();
-        cat.speak();
-        cat.play();
+        Dog Dog = new  Dog("Bim");
+        System.out.println(Dog);
+        Dog.guard();
+        Dog.eat();
+        Dog.speak();
     }
 }
